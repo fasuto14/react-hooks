@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { RealExampleRef } from './components/04-useRef/RealExampleRef';
+import { LayoutEffect } from './components/05-useLayoutEffect/LayoutEffect';
+//import { RealExampleRef } from './components/04-useRef/RealExampleRef';
 //import { FocusScreen } from './components/04-useRef/FocusScreen';
 //import { CounterApp } from './components/01-useState/CounterApp';
 //import { CounterWithCustomHook } from './components/01-useState/CounterWithCustomHook';
@@ -11,6 +12,6 @@ import { RealExampleRef } from './components/04-useRef/RealExampleRef';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <RealExampleRef />
+  <LayoutEffect />
 );
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { TodoApp } from './components/08-useReducer/TodoApp';
 //import { CallbackHook } from './components/06-memos/CallbackHook';
 //import { MemoHook } from './components/06-memos/MemoHook';
 //import { Memorize } from './components/06-memos/Memorize';
@@ -12,10 +13,11 @@ import ReactDOM from 'react-dom/client';
 //import { SimpleForm } from './components/02-useEffect/SimpleForm';
 //import { FormWithCustomHook } from './components/02-useEffect/FormWithCustomHook';
 //import { MultipleCustomHooks } from './components/03-examples/MultipleCustomHooks';
-import {Padre} from './../src/components/07-tarea-memo/Padre';
+//import {Padre} from './../src/components/07-tarea-memo/Padre';
+//import './components/08-useReducer/intro-reducer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Padre />
+  <TodoApp />
 );
 
